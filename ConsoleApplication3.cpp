@@ -9,14 +9,7 @@ int main() {
 
 	double a, b, c, x;
 	double f;
-	cout << "Введіть a: ";
-	cin >> a;
-	cout << "Введіть b: ";
-	cin >> b;
-	cout << "Введіть c: ";
-	cin >> c;
-	cout << "Введіть x: ";
-	cin >> x;
+	cin >> a >> b >> c >> x;
 	if ((x + b < 10) && (b != 0)) {
 	if ( c!=0 ) { 
 	f = pow(a, 3) * pow(x, 2) - b / c;
